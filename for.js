@@ -64,3 +64,23 @@ console.log("🚀 ~ someNames:", someNames);
 
 const everyNames = names.every((name) => name.length >= 5);
 console.log("🚀 ~ everyNames:", everyNames);
+
+// spread syntax
+const addNames = [...names, "hyejin"];
+console.log("🚀 ~ addNames:", addNames);
+
+// 
+const todoItem = {
+    id : 123,
+    todo : "JS공부",
+    isComplete : false
+};
+console.log("🚀 ~ todoItem:", todoItem);
+
+const setTodoItem = {
+    ...todoItem,
+    memo : "집에 보내쥬라", 
+    isComplete : true // 이미 존재하는 키 값인 경우 데이터 수정
+};
+console.log("🚀 ~ setTodoItem:", setTodoItem);
+
