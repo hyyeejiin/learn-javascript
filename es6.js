@@ -5,3 +5,4 @@ const hello = (username  = "사용자") => {
 
 hello();
 hello('혜진');
+
