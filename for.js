@@ -27,7 +27,7 @@ students.forEach((name, idx) => {
 1. map - 배열(return 값) : 기존 배열을 조작하여 새로운 배열로 
 2. filter - 배열 : 배열 안의 요소들 중 조건을 만족하는 요소들로 새로운 배열을 리턴
 3. find - 요소 or undefined : 배열 안의 요소들 중에서 조건을 만족하는 첫번째 요소 리턴 / 조건을 만족하는 요소가 없으면 undefined 반환
-4. some/every - boolean
+4. some/every - boolean : (some) 배열의 요소 중 하나라도 조건을 만족하면 true, 아니면 false/ (every) 배열 안의 모든 요소가 만족해야 true
 */
 const names = ["alise", "bob", "charlie", "david"];
 
