@@ -46,3 +46,4 @@ const userInput = "" ; // 사용자 입력 값
 if(!userInput){
     console.log("입금해줘");
 }
+
